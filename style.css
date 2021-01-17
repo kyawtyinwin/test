@@ -1,0 +1,131 @@
+*{
+	font-family: KMT;
+}
+@font-face
+    {
+    		font-family:"KMT";
+    	src:url(fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+    }
+
+    @font-face
+    {
+    		font-family:"KMT2";
+    	src:url(fonts/Zhi_Mang_Xing/ZhiMangXing-Regular.ttf);
+    }
+
+#banner{
+	background: linear-gradient(to bottom,rgba(218,165,146,0.4)0,
+		rgba(218,165,146,0.4)100%),
+		url(image/mfemale2.jpg);
+		width: 100%;
+		height:100vh;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+
+}
+
+#banner2{
+	background: linear-gradient(to bottom,rgba(218,165,146,0.4)0,
+		rgba(218,165,146,0.4)100%),
+		url(image/mfemale2.jpg);
+		width: 100%;
+		height:350px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+
+}
+
+	#banner_model{
+	background: linear-gradient(to bottom,rgba(218,165,146,0.4)0,
+		rgba(218,165,146,0.4)100%),
+		url(image/gp3.jpg);
+		width: 100%;
+		height:350px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+
+}
+h1{
+	font-family: KMT2;
+}
+
+#navtitle{
+	padding-top: 150px;
+}
+
+#divider{
+	max-width: 3.25rem;
+	border-width:0.2rem;
+	border-color: #ec037c;
+}
+#contactbtn{
+	padding: 1.25rem 2.25rem;
+	font-size: 0.85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 10rem;
+	background-color: #ec037c;
+	color: white;
+}
+
+#counter{
+	background: linear-gradient(rgba(0,0,0,0.5),
+		rgba(0,0,0,0.5)),url(image/mfemale3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 35px;
+}
+
+#pM{
+	text-align: center;
+
+}
+
+#popularModel{
+	margin-top: 50px;
+
+}
+
+
+
+#popularModel div p{
+	text-align: center;
+}
+
+nav.scrolled{
+	background-color: #F48FB1;
+}
+
+.card{
+	height: 150px;
+}
+
+
+
+#footer_area {
+    background-color: pink;
+    color:white;
+}
+
+#toolbar{
+	margin:0 auto;
+}
+
+.emoji img{
+	width: 80px;
+	height: 80px;
+
+}
+
+.head{
+	text-align: center;
+}
+
+.emojip{
+	text-align: center;
+}
